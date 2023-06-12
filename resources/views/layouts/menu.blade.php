@@ -35,16 +35,36 @@
                                 About Us
                             </a>
                             <ul class="sub-menu">
-                                <li><a href="job-grid.html">Jobs Grid</a></li>
-                                <li><a href="job-grid-with-map.html">Jobs Grid with Map</a></li>
-                                <li><a href="job-list.html">Jobs List</a></li>
-                                <li class="has-child"><a href="javascript:;">Job Detail</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="job-detail.html">Detail 1</a>
-                                        <li><a href="job-detail-v2.html">Detail 2 </a>
-                                    </ul>
+                                <li>
+                                    <a href="{{ route('about.index') }}">
+                                        About of Company
+                                    </a>
                                 </li>
-                                <li><a href="apply-job.html">Apply Jobs</a></li>
+
+                                <li>
+                                    <a href="{{ route('ceo_message') }}">
+                                        Message From CEO
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="{{ route('statement') }}">
+                                        Vision, Mission & Values
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="{{ route('why') }}">
+                                        Why Choose Gold Silver Diamond Co.,Ltd
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="{{ route('team') }}">
+                                        Professional Team
+                                    </a>
+                                </li>
+
                             </ul>
                         </li>
 

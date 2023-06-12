@@ -44,7 +44,6 @@
                     </div>
 
                     <div class="col-lg-12 col-md-12 py-5">
-
                         <center>
                             <div class="column mcb-column mcb-item-04q251sx2 one column_column">
                                 <div class="column_attr clearfix align_center animate fadeInUp" data-anim-type="fadeInUp"
