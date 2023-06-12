@@ -46,7 +46,7 @@
                         <center>
                             <div class="column mcb-column mcb-item-04q251sx2 one column_column">
                                 <div class="column_attr clearfix align_center animate fadeInUp" data-anim-type="fadeInUp"
-                                    style="background-image:url('http://www.thefirstgoodmangroup.com/wp-content/uploads/2017/04/home_elearning_sep.png');background-repeat:no-repeat;background-position:center bottom;">
+                                    style="background-image:url({{ asset('data/home_elearning_sep.png') }});background-repeat:no-repeat;background-position:center bottom;">
                                     <strong>
                                         <h3 style="color:#00CE55;">
                                             <font style="vertical-align: inherit;">

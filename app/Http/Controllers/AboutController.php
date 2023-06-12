@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Team;
 use Illuminate\Http\Request;
 
 class AboutController extends Controller
@@ -28,6 +29,7 @@ class AboutController extends Controller
 
     public function team()
     {
-        return view('about.team');
+        $teams = Team::all();
+        return view('about.team', compact('teams'));
     }
 }

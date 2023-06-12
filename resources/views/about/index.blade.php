@@ -116,7 +116,6 @@
         </div>
     </div>
 
-
     <div class="section-full p-t120 p-b90 site-bg-gray twm-how-t-get-wrap7">
         <div class="container">
             <div class="twm-how-t-get-section">
@@ -232,11 +231,11 @@
                         </li>
                         <li>
                             <i class="feather-check"></i>
-                            No Extra Charge
+                            Having a customer service guarantee
                         </li>
                         <li>
                             <i class="feather-check"></i>
-                            Top Companies
+                            Good and fast service at a reasonable price
                         </li>
                     </ul>
                     <!-- TITLE END-->
@@ -256,7 +255,10 @@
                                             </span>
                                         </div>
                                         <h4 class="twm-title">Register<br>Your Account</h4>
-                                        <p>You need to create an account to find the best and preferred job.</p>
+                                        <p>
+                                            Attestation of Job Order
+                                            in Myanmar Embassy
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -273,7 +275,9 @@
                                         </div>
                                         <h4 class="twm-title">Search <br>
                                             Your Job</h4>
-                                        <p>You need to create an account to find the best and preferred job.</p>
+                                        <p>
+                                            Interview and pre-qualify workers
+                                        </p>
                                     </div>
 
                                 </div>
@@ -290,7 +294,10 @@
                                             </span>
                                         </div>
                                         <h4 class="twm-title">Apply <br>For Dream Job</h4>
-                                        <p>You need to create an account to find the best and preferred job.</p>
+                                        <p>
+                                            Provide workers
+                                            orientation and briefing
+                                        </p>
                                     </div>
 
                                 </div>
@@ -307,10 +314,53 @@
                                             </span>
                                         </div>
                                         <h4 class="twm-title">Upload <br>Your Resume</h4>
-                                        <p>You need to create an account to find the best and preferred job.</p>
+                                        <p>
+                                            Pre-departure orientation
+                                        </p>
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                <div class="twm-w-process-steps-2">
+                                    <div class="twm-w-pro-top bg-clr-sky-light bg-sky-light-shadow">
+                                        <span class="twm-large-number text-clr-sky">05</span>
+                                        <div class="twm-media">
+                                            <span>
+                                                <img src="{{ asset('assets/images/work-process/icon1.png') }}"
+                                                    alt="icon1">
+                                            </span>
+                                        </div>
+                                        <h4 class="twm-title">Register<br>Your Account</h4>
+                                        <p>
+                                            Post monitoring of
+                                            deployed workers
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                <div class="twm-w-process-steps-2">
+                                    <div class="twm-w-pro-top bg-clr-yellow-light bg-yellow-light-shadow">
+                                        <span class="twm-large-number text-clr-yellow">06</span>
+                                        <div class="twm-media">
+                                            <span>
+                                                <img src="{{ asset('assets/images/work-process/icon4.png') }}"
+                                                    alt="icon1">
+                                            </span>
+                                        </div>
+                                        <h4 class="twm-title">Search <br>
+                                            Your Job</h4>
+                                        <p>
+                                            Crosscheck and verify
+                                            credentials
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>

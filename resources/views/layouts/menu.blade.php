@@ -43,7 +43,7 @@
 
                                 <li>
                                     <a href="{{ route('ceo_message') }}">
-                                        Message From CEO
+                                        President's Message
                                     </a>
                                 </li>
 
@@ -54,7 +54,7 @@
                                 </li>
 
                                 <li>
-                                    <a href="{{ route('why') }}">
+                                    <a href="{{ route('why') }}" hidden>
                                         Why Choose Gold Silver Diamond Co.,Ltd
                                     </a>
                                 </li>
