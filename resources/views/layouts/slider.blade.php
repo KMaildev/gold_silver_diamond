@@ -40,10 +40,10 @@
 
                 <div class="twm-home-2-bnr-images">
                     <div class="bnr-image-1">
-                        <img src="{{ asset('assets/images/main-slider/slider2/right-pic-1.jpg') }}" alt="">
+                        <img src="https://www.camerontoll.co.uk/wp-content/uploads/2019/03/unnamed.png" alt="" style="height: 450px;">
                     </div>
                     <div class="bnr-image-2">
-                        <img src="https://static-00.iconduck.com/assets.00/job-rotation-icon-1897x2048-2pu0jx88.png" alt="">
+                        <img src="{{ asset('data/job.png') }}" alt="">
                     </div>
                     <div class="twm-small-ring-2 scale-up-center"></div>
                 </div>
