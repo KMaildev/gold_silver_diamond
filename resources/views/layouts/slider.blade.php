@@ -1,105 +1,118 @@
-<div class="twm-home4-banner-section site-bg-light-purple">
+<div class="twm-home2-banner-section site-bg-gray bg-cover"
+    style="background-image:url({{ asset('assets/images/main-slider/slider2/bg1.jpg') }})">
     <div class="row">
+
         <!--Left Section-->
-        <div class="col-xl-6 col-lg-12 col-md-12">
+        <div class="col-xl-6 col-lg-6 col-md-12">
             <div class="twm-bnr-left-section">
-                <div class="twm-bnr-title-large">Your <span class="site-text-primary">Dream Job </span> in
-                    one place</div>
-                <div class="twm-bnr-discription">Find jobs that match your interests with us.</div>
-                <div class="twm-bnr-search-bar">
-                    <form>
-                        <div class="row">
-                            <!--Title-->
-                            <div class="form-group col-xl-8 col-lg-8 col-md-8">
-                                <label>What</label>
-                                <div class="twm-single-iput">
-                                    <input name="username" type="text" required class="form-control  bg-none"
-                                        placeholder="Job title, Keywords, or company">
-                                </div>
-                            </div>
-
-                            <!--Find job btn-->
-                            <div class="form-group col-xl-4 col-lg-4 col-md-4">
-                                <button type="button" class="site-button">Find Job</button>
-                            </div>
-
-                        </div>
-                    </form>
+                <div class="twm-bnr-title-small">
+                    Overseas Employment Agency
                 </div>
-                <div class="twm-bnr-popular-search">
-                    <span class="twm-title">Popular Searches:</span>
-                    <a href="job-list.html">Developer</a> ,
-                    <a href="job-list.html">Designer</a> ,
-                    <a href="job-list.html">Architect</a> ,
-                    <a href="job-list.html">Engineer</a> ,
-                    <a href="job-list.html">PHP</a> ,
-                    <a href="job-list.html">Banking</a> ,
-                    <a href="job-list.html">Ios</a> ,
-                    <a href="job-list.html">Freelance</a> ,
-                    <a href="job-list.html">Writing</a> ,
-                    <a href="job-list.html">Accountancy</a>...
+                <div class="twm-bnr-title-large">
+                    <span class="site-text-primary">
+                        Gold Silver Diamond
+                    </span>
+                    Company Limited
                 </div>
+                <div class="twm-bnr-discription">
+                    Find your next international job placement with a global technical recruiter
+                </div>
+                <a href="{{ route('contact.index') }}" class="site-button">
+                    Contact Us
+                </a>
             </div>
         </div>
 
         <!--right Section-->
-        <div class="col-xl-6 col-lg-12 col-md-12">
-            <div class="twm-bnr-right-section anm" data-wow-delay="1000ms" data-speed-x="2" data-speed-y="2">
-
-                <div class="twm-graphics-h3 twm-bg-line">
-                    <img src="{{ asset('assets/images/home-4/banner/bg-line.png') }}" alt="">
+        <div class="col-xl-6 col-lg-6 col-md-12 twm-bnr-right-section">
+            <div class="twm-bnr2-right-content">
+                <div class="twm-img-bg-circle-area2">
+                    <div class="twm-outline-ring-wrap">
+                        <div class="twm-outline-ring-dott-wrap">
+                            <span class="outline-dot-1"></span>
+                            <span class="outline-dot-2"></span>
+                            <span class="outline-dot-3"></span>
+                            <!--Samll Ring Left-->
+                            <div class="twm-small-ring-l scale-up-center"></div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="twm-graphics-user twm-user">
-                    <img src="{{ asset('assets/images/home-4/banner/user.png') }}" alt="">
+                <div class="twm-home-2-bnr-images">
+                    <div class="bnr-image-1">
+                        <img src="{{ asset('assets/images/main-slider/slider2/right-pic-1.jpg') }}" alt="">
+                    </div>
+                    <div class="bnr-image-2">
+                        <img src="https://static-00.iconduck.com/assets.00/job-rotation-icon-1897x2048-2pu0jx88.png" alt="">
+                    </div>
+                    <div class="twm-small-ring-2 scale-up-center"></div>
                 </div>
 
-                <div class="twm-graphics-h3 twm-bg-plate">
-                    <img src="{{ asset('assets/images/home-4/banner/bg-plate.png') }}" alt="">
+                <!--icon-block-1-->
+                <div class="twm-bnr-blocks twm-bnr-blocks-position-1">
+                    <div class="twm-icon">
+                        <img src="{{ asset('assets/images/main-slider/slider2/icon-1.png') }}" alt="">
+                    </div>
+                    <div class="twm-content">
+                        <div class="tw-count-number text-clr-sky">
+                            <span class="counter">4</span>
+                        </div>
+                        <p class="icon-content-info">
+                            Sending Countries
+                        </p>
+                    </div>
                 </div>
 
-                <div class="twm-graphics-h3 twm-checked-plate">
-                    <img src="{{ asset('assets/images/home-4/banner/checked-plate.png') }}" alt="">
+                <!--icon-block-2-->
+                <div class="twm-bnr-blocks twm-bnr-blocks-position-2">
+                    <div class="twm-icon pink">
+                        <img src="{{ asset('assets/images/main-slider/slider2/icon-2.png') }}" alt="">
+                    </div>
+                    <div class="twm-content">
+                        <div class="tw-count-number text-clr-pink">
+                            <span class="counter">1000</span> +
+                        </div>
+                        <p class="icon-content-info">
+                            Sending Labour
+                        </p>
+                    </div>
                 </div>
 
-                <div class="twm-graphics-h3 twm-blue-block">
-                    <img src="{{ asset('assets/images/home-4/banner/blue-block.png') }}" alt="">
-                </div>
-
-                <div class="twm-graphics-h3 twm-color-dotts">
-                    <img src="{{ asset('assets/images/home-4/banner/color-dotts.png') }}" alt="">
-                </div>
-
-                <div class="twm-graphics-h3 twm-card-large anm" data-speed-y="-2" data-speed-scale="-15"
-                    data-speed-opacity="50">
-                    <img src="{{ asset('assets/images/home-4/banner/card.png') }}" alt="">
-                </div>
-
-                <div class="twm-graphics-h3 twm-card-s1 anm" data-speed-y="2" data-speed-scale="15"
-                    data-speed-opacity="50">
-                    <img src="{{ asset('assets/images/home-4/banner/card-s1.png') }}" alt="">
-                </div>
-
-                <div class="twm-graphics-h3 twm-card-s2 anm" data-speed-x="-4" data-speed-scale="-25"
-                    data-speed-opacity="50">
-                    <img src="{{ asset('assets/images/home-4/banner/card-s2.png') }}" alt="">
-                </div>
-
-                <div class="twm-graphics-h3 twm-white-dotts">
-                    <img src="{{ asset('assets/images/home-4/banner/white-dotts.png') }}" alt="">
-                </div>
-
-                <div class="twm-graphics-h3 twm-top-shadow anm" data-speed-x="-16" data-speed-y="2"
-                    data-speed-scale="50" data-speed-rotate="25">
-                    <img src="{{ asset('assets/images/home-4/banner/top-shadow.png') }}" alt="">
-                </div>
-
-                <div class="twm-graphics-h3 twm-bottom-shadow anm" data-speed-x="16" data-speed-y="2"
-                    data-speed-scale="20" data-speed-rotate="25">
-                    <img src="{{ asset('assets/images/home-4/banner/bottom-shadow.png') }}" alt="">
+                <!--icon-block-3-->
+                <div class="twm-bnr-blocks-3 twm-bnr-blocks-position-3">
+                    <div class="twm-pics">
+                        <span>
+                            <img src="{{ asset('assets/images/main-slider/slider2/user/u-1.jpg') }}" alt="">
+                        </span>
+                        <span>
+                            <img src="{{ asset('assets/images/main-slider/slider2/user/u-2.jpg') }}" alt="">
+                        </span>
+                        <span>
+                            <img src="{{ asset('assets/images/main-slider/slider2/user/u-3.jpg') }}" alt="">
+                        </span>
+                        <span>
+                            <img src="{{ asset('assets/images/main-slider/slider2/user/u-4.jpg') }}" alt="">
+                        </span>
+                        <span>
+                            <img src="{{ asset('assets/images/main-slider/slider2/user/u-5.jpg') }}" alt="">
+                        </span>
+                        <span>
+                            <img src="{{ asset('assets/images/main-slider/slider2/user/u-6.jpg') }}" alt="">
+                        </span>
+                    </div>
+                    <div class="twm-content">
+                        <div class="tw-count-number text-clr-green">
+                            <span class="counter">70</span>+
+                        </div>
+                        <p class="icon-content-info">
+                            jobs
+                        </p>
+                    </div>
                 </div>
 
             </div>
         </div>
+
     </div>
+
 </div>

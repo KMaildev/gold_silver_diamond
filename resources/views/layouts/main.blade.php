@@ -5,14 +5,14 @@
     <!-- META -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="" />
-    <meta name="author" content="" />
-    <meta name="robots" content="" />
-    <meta name="description" content="" />
+    <meta name="keywords" content="Gold Silver Diamond Co.,Ltd" />
+    <meta name="author" content="Gold Silver Diamond Co.,Ltd" />
+    <meta name="robots" content="Gold Silver Diamond Co.,Ltd" />
+    <meta name="description" content="Gold Silver Diamond Co.,Ltd" />
 
     <!-- FAVICONS ICON -->
-    <link rel="icon" href="{{ asset('assets/images/favicon.ico') }}" type="image/x-icon" />
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon.png') }}" />
+    <link rel="icon" href="{{ asset('data/gsd.png') }}" type="image/x-icon" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('data/gsd.png') }}" />
 
     <!-- PAGE TITLE HERE -->
     <title>Gold Silver Diamond Co.,Ltd - @yield('title')</title>
@@ -36,7 +36,6 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/swiper-bundle.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}">
 
-
     <!-- THEME COLOR CHANGE STYLE SHEET -->
     <link rel="stylesheet" class="skin" type="text/css" href="{{ asset('assets/css/skins-type/skin-6.css') }}">
     <!-- SIDE SWITCHER STYLE SHEET -->
@@ -48,9 +47,14 @@
         <!--template buy button-->
         <div class="buy-btn-wrap">
             <div class="buy-btn-list">
-                <a href="javascript:;" id="all-demo-open" class="all-demos-view">All Demo</a>
-                <a href="https://themeforest.net/item/job-board-html-template/38681133" class="buy-now-btn">
-                    <i class="fas fa-cart-plus"></i>Buy NoW
+                <a target="_blank" href="https://www.facebook.com/Gold-Silver-Diamond-CoLtd-318034715415480"
+                    id="all-demo-open" class="all-demos-view">
+                    <i class="fab fa-facebook-f"></i>
+                    Facebook
+                </a>
+                <a href="#" class="buy-now-btn">
+                    <i class="fab fa-youtube"></i>
+                    Youtube
                 </a>
             </div>
         </div>
@@ -75,18 +79,18 @@
                 <!-- NEWS LETTER SECTION START -->
                 <div class="ftr-nw-content">
                     <div class="row">
-                        <div class="col-md-5">
+                        <div class="col-md-10">
                             <div class="ftr-nw-title">
-                                Join our email subscription now to get updates
-                                on new jobs and notifications.
+                                If you have any queries about recruitments, vacancies, or anything else, our team is
+                                ready to response all your queries.
                             </div>
                         </div>
-                        <div class="col-md-7">
+                        <div class="col-md-2">
                             <form>
                                 <div class="ftr-nw-form">
-                                    <input name="news-letter" class="form-control" placeholder="Enter Your Email"
-                                        type="text">
-                                    <button class="ftr-nw-subcribe-btn">Subscribe Now</button>
+                                    <a href="{{ route('contact.index') }}" class="ftr-nw-subcribe-btn">
+                                        Contact Us
+                                    </a>
                                 </div>
                             </form>
                         </div>
@@ -97,111 +101,164 @@
                 <div class="footer-top">
                     <div class="row">
 
-                        <div class="col-lg-3 col-md-12">
-
+                        <div class="col-lg-4 col-md-12">
                             <div class="widget widget_about">
-                                <div class="logo-footer clearfix">
-                                    <a href="index.html"><img src="{{ asset('assets/images/logo-light-2.png') }}"
-                                            alt=""></a>
-                                </div>
-                                <p>Many desktop publishing packages and web page editors now.</p>
+                                <h3 class="widget-title">
+                                    Head Office
+                                </h3>
+                                <p>
+                                    Alternatively, you may contact us by filling up the contact form. Our team will
+                                    response you shortly.
+                                </p>
+
                                 <ul class="ftr-list">
                                     <li>
-                                        <p><span>Address :</span>65 Sunset CA 90026, USA </p>
+                                        <p>
+                                            <span>Address :</span>
+                                            No.(478), Kyan Sit Thar Street, Ward No.(20), Shwe Paukkan, North Okkalapa
+                                            Township,
+                                            Yangon, Myanmar.
+                                        </p>
                                     </li>
                                     <li>
-                                        <p><span>Email :</span>example@max.com</p>
+                                        <p>
+                                            <span>Email :</span>
+                                            shweminthamee2013@gmail.com
+                                        </p>
                                     </li>
                                     <li>
-                                        <p><span>Call :</span>555-555-1234</p>
+                                        <p>
+                                            <span>Call :</span>
+                                            09-8617090,
+                                            09 428617090,
+                                            09 784847474,
+                                            09-776453854
+                                        </p>
                                     </li>
                                 </ul>
+
                             </div>
 
                         </div>
 
-                        <div class="col-lg-9 col-md-12">
+                        <div class="col-lg-8 col-md-12">
                             <div class="row">
 
-                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div class="col-lg-4 col-md-6 col-sm-6">
                                     <div class="widget widget_services ftr-list-center">
-                                        <h3 class="widget-title">For Candidate</h3>
+                                        <h3 class="widget-title">
+                                            Quick Links
+                                        </h3>
                                         <ul>
-                                            <li><a href="dashboard.html">User Dashboard</a></li>
-                                            <li><a href="dash-resume-alert.html">Alert resume</a></li>
-                                            <li><a href="candidate-grid.html">Candidates</a></li>
-                                            <li><a href="blog-list.html">Blog List</a></li>
-                                            <li><a href="blog-single.html">Blog single</a></li>
+                                            <li>
+                                                <a href="{{ route('about.index') }}">
+                                                    About of Company
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="{{ route('ceo_message') }}">
+                                                    President's Message
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="{{ route('statement') }}">
+                                                    Vision, Mission & Values
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="{{ route('team') }}">
+                                                    Professional Team
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="{{ route('activities.index') }}">
+                                                    Our Activities
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="{{ route('cv.index') }}">
+                                                    Submit CV
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="{{ route('employer.index') }}">
+                                                    Employer Form
+                                                </a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div class="col-lg-4 col-md-6 col-sm-6">
                                     <div class="widget widget_services ftr-list-center">
-                                        <h3 class="widget-title">For Employers</h3>
+                                        <h3 class="widget-title">
+                                            Sending Country
+                                        </h3>
                                         <ul>
-                                            <li><a href="dash-post-job.html">Post Jobs</a></li>
-                                            <li><a href="blog-grid.html">Blog Grid</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="job-list.html">Jobs Listing</a></li>
-                                            <li><a href="job-detail.html">Jobs details</a></li>
+                                            @foreach ($countries as $country)
+                                                <li>
+                                                    <a href="{{ route('job.show', $country->id) }}">
+                                                        {{ $country->country ?? '' }}
+                                                    </a>
+                                                </li>
+                                            @endforeach
                                         </ul>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div class="col-lg-4 col-md-6 col-sm-6">
                                     <div class="widget widget_services ftr-list-center">
-                                        <h3 class="widget-title">Helpful Resources</h3>
-                                        <ul>
-                                            <li><a href="faq.html">FAQs</a></li>
-                                            <li><a href="employer-detail.html">Employer detail</a></li>
-                                            <li><a href="dash-my-profile.html">Profile</a></li>
-                                            <li><a href="error-404.html">404 Page</a></li>
-                                            <li><a href="pricing.html">Pricing</a></li>
-                                        </ul>
+                                        <h3 class="widget-title">
+                                            Facebook
+                                        </h3>
+                                        <div id="fb-root"></div>
+                                        <script async defer crossorigin="anonymous"
+                                            src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0&appId=210045094312905&autoLogAppEvents=1"
+                                            nonce="PosYNXjc"></script>
+
+                                        <div class="fb-page"
+                                            data-href="https://www.facebook.com/Gold-Silver-Diamond-CoLtd-318034715415480"
+                                            data-tabs="timeline" data-width="" data-height="200"
+                                            data-small-header="false" data-adapt-container-width="true"
+                                            data-hide-cover="false" data-show-facepile="true">
+                                            <blockquote
+                                                cite="https://www.facebook.com/Gold-Silver-Diamond-CoLtd-318034715415480"
+                                                class="fb-xfbml-parse-ignore"><a
+                                                    href="https://www.facebook.com/Gold-Silver-Diamond-CoLtd-318034715415480">Facebook</a>
+                                            </blockquote>
+                                        </div>
                                     </div>
                                 </div>
-
-                                <div class="col-lg-3 col-md-6 col-sm-6">
-                                    <div class="widget widget_services ftr-list-center">
-                                        <h3 class="widget-title">Quick Links</h3>
-                                        <ul>
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about-1.html">About us</a></li>
-                                            <li><a href="dash-bookmark.html">Bookmark</a></li>
-                                            <li><a href="job-grid.html">Jobs</a></li>
-                                            <li><a href="employer-list.html">Employer</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
                             </div>
-
                         </div>
-
                     </div>
                 </div>
-                <!-- FOOTER COPYRIGHT -->
+
                 <div class="footer-bottom">
-
                     <div class="footer-bottom-info">
-
                         <div class="footer-copy-right">
-                            <span class="copyrights-text">Copyright © 2023 by thewebmax All Rights Reserved.</span>
+                            <span class="copyrights-text">
+                                Copyright © 2023 Gold Silver Diamond Co.,Ltd. All Rights Reserved
+                            </span>
                         </div>
                         <ul class="social-icons">
-                            <li><a href="javascript:void(0);" class="fab fa-facebook-f"></a></li>
+                            <li>
+                                <a href="https://www.facebook.com/Gold-Silver-Diamond-CoLtd-318034715415480"
+                                    target="_blank" class="fab fa-facebook-f"></a>
+                            </li>
                             <li><a href="javascript:void(0);" class="fab fa-twitter"></a></li>
                             <li><a href="javascript:void(0);" class="fab fa-instagram"></a></li>
                             <li><a href="javascript:void(0);" class="fab fa-youtube"></a></li>
                         </ul>
-
                     </div>
-
                 </div>
-
             </div>
-
         </footer>
         <!-- FOOTER END -->
 
@@ -237,35 +294,6 @@
     <script src="{{ asset('assets/js/swiper-bundle.min.js') }}"></script><!-- Swiper JS -->
     <script src="{{ asset('assets/js/custom.js') }}"></script><!-- CUSTOM FUCTIONS  -->
     <script src="{{ asset('assets/js/switcher.js') }}"></script><!-- SHORTCODE FUCTIONS  -->
-
-
-    <!-- STYLE SWITCHER  ======= -->
-    <div class="styleswitcher">
-
-        <div class="switcher-btn-bx">
-            <a class="switch-btn">
-                <span class="fa fa-cog fa-spin"></span>
-            </a>
-        </div>
-
-        <div class="styleswitcher-inner">
-
-            <h6 class="switcher-title">Color Skin</h6>
-            <ul class="color-skins">
-                <li><a class="theme-skin skin-1" href="index-4a39b.html?theme=css/skin/skin-1"></a></li>
-                <li><a class="theme-skin skin-2" href="index-461e7.html?theme=css/skin/skin-2"></a></li>
-                <li><a class="theme-skin skin-3" href="index-4cce5.html?theme=css/skin/skin-3"></a></li>
-                <li><a class="theme-skin skin-4" href="index-413f7.html?theme=css/skin/skin-4"></a></li>
-                <li><a class="theme-skin skin-5" href="index-419a6.html?theme=css/skin/skin-5"></a></li>
-                <li><a class="theme-skin skin-6" href="index-4fe5c.html?theme=css/skin/skin-6"></a></li>
-                <li><a class="theme-skin skin-7" href="index-4ab47.html?theme=css/skin/skin-7"></a></li>
-                <li><a class="theme-skin skin-8" href="index-45f8d.html?theme=css/skin/skin-8"></a></li>
-
-            </ul>
-
-        </div>
-    </div>
-    <!-- STYLE SWITCHER END ==== -->
 </body>
 
 </html>

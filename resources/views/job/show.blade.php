@@ -34,6 +34,11 @@
                                                 class="twm-jobs-browse site-text-primary">
                                                 Contact Us
                                             </a>
+
+                                            <a href="{{ route('cv.index') }}"
+                                                class="twm-jobs-browse site-text-primary">
+                                                Submit CV
+                                            </a>
                                         </div>
                                     </div>
                                 </div>

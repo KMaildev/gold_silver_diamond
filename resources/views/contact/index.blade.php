@@ -103,22 +103,32 @@
                                             <div class="c-info-column">
                                                 <div class="c-info-icon"><i class=" fas fa-map-marker-alt"></i></div>
                                                 <h3 class="twm-title">In the bay area?</h3>
-                                                <p>1363-1385 Sunset Blvd Los Angeles, CA 90026, USA</p>
+                                                <p>
+                                                    No.(478), Kyan Sit Thar Street, Ward No.(20), Shwe Paukkan, North
+                                                    Okkalapa Township,
+                                                    Yangon, Myanmar.
+                                                </p>
                                             </div>
 
                                             <div class="c-info-column">
                                                 <div class="c-info-icon custome-size"><i class="fas fa-mobile-alt"></i>
                                                 </div>
                                                 <h3 class="twm-title">Feel free to contact us</h3>
-                                                <p><a href="tel:+216-761-8331">+2 900 234 4241</a></p>
-                                                <p><a href="tel:+216-761-8331">+2 900 234 3219</a></p>
+                                                <p><a href="tel:09-8617090">09-8617090</a></p>
+                                                <p><a href="tel:09 428617090">09 428617090</a></p>
+                                                <p><a href="tel:09 784847474">09 784847474</a></p>
+                                                <p><a href="tel:09-776453854">09-776453854</a></p>
                                             </div>
 
                                             <div class="c-info-column">
                                                 <div class="c-info-icon"><i class="fas fa-envelope"></i></div>
                                                 <h3 class="twm-title">Support</h3>
-                                                <p>infohelp@gmail.com</p>
-                                                <p>support12@gmail.com</p>
+                                                <p>
+                                                    shweminthamee2013@gmail.com
+                                                </p>
+                                                <p>
+                                                    info@goldsilverdiamond.com
+                                                </p>
                                             </div>
 
                                         </div>

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\StoreCv;
 use App\Models\Cv;
 use Illuminate\Http\Request;
 
@@ -12,7 +13,7 @@ class CvController extends Controller
         return view('cv.index');
     }
 
-    public function store(Request $request)
+    public function store(StoreCv $request)
     {
         if ($request->hasFile('attachment_file')) {
             $attachment_file = $request->file('attachment_file');

@@ -3,10 +3,10 @@
         <div class="main-bar">
 
             <div class="container-fluid clearfix">
-                <div class="logo-header">
+                <div class="logo-header" style="width: 200px! importent">
                     <div class="logo-header-inner logo-header-one">
                         <a href="{{ route('home') }}">
-                            <img src="{{ asset('assets/images/logo-dark.png') }}" alt="">
+                            <img src="{{ asset('data/gsd.png') }}" alt="">
                         </a>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
 
                         <li class="has-child">
                             <a href="javascript:;">
-                                About Us
+                                About
                             </a>
                             <ul class="sub-menu">
                                 <li>
@@ -85,7 +85,7 @@
 
                         <li class="has-child">
                             <a href="{{ route('activities.index') }}">
-                                Our Activities
+                                Activities
                             </a>
                         </li>
 
@@ -123,28 +123,28 @@
                             <div class="twm-nav-btn-right">
                                 <a href="{{ route('en') }}">
                                     <img src="{{ asset('data/united-states-of-america.png') }}" alt=""
-                                        style="width: 43px; height: 43px;">
+                                        style="width: 38px; height: 38px;">
                                 </a>
                             </div>
 
                             <div class="twm-nav-btn-right">
                                 <a href="{{ route('jp') }}">
                                     <img src="{{ asset('data/japan.png') }}" alt=""
-                                        style="width: 43px; height: 43px;">
+                                        style="width: 38px; height: 38px;">
                                 </a>
                             </div>
 
                             <div class="twm-nav-btn-right">
                                 <a href="{{ route('kr') }}">
                                     <img src="{{ asset('data/south-korea.png') }}" alt=""
-                                        style="width: 43px; height: 43px;">
+                                        style="width: 38px; height: 38px;">
                                 </a>
                             </div>
 
                             <div class="twm-nav-btn-right">
                                 <a href="{{ route('th') }}">
                                     <img src="{{ asset('data/thailand.png') }}" alt=""
-                                        style="width: 43px; height: 43px;">
+                                        style="width: 38px; height: 38px;">
                                 </a>
                             </div>
                         </div>

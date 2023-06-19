@@ -99,7 +99,7 @@
                                     <label for="img">Select your CV to upload</label>
                                     <br>
                                     <input type="file" name="attachment_file" accept=".doc, .docx, .pdf"
-                                        class="form-control-file">
+                                        class="form-control-file" required>
                                 </div>
                             </div>
 

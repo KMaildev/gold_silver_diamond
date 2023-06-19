@@ -22,7 +22,6 @@ Route::get('/statement', [AboutController::class, 'statement'])->name('statement
 Route::get('/why', [AboutController::class, 'why'])->name('why');
 Route::get('/team', [AboutController::class, 'team'])->name('team');
 
-
 Route::get('en', [LangController::class, 'lang_en'])->name('en');
 Route::get('jp', [LangController::class, 'lang_jp'])->name('jp');
 Route::get('kr', [LangController::class, 'lang_kr'])->name('kr');
